@@ -1,0 +1,31 @@
+# Seiteneinstellungen
+title: Jasmin Portfolio
+description: "Jasmin von Reth" # Maximal 160 Zeichen
+author: jvonreth
+email: jasmin.vonreth@gmail.com
+url: "http://localhost:3000" # Basis-Hostname für Development
+# url: "" # Basis-Hostname für Production
+baseurl: "" # Pfad in welchem die Jekyll-Seite gehostet wird
+locale: "de"
+encoding: "utf-8"
+
+# Einstellungen für den Build-Prozess
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+highlighter: rouge
+lsi: false
+
+# Dateien die im Build-Prozess nicht berücksichtigt werden sollen
+exclude:
+  - README.md
+  - LICENSE.md
+  - package.json
+  - gulpfile.js
+  - node_modules
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+
+# Navigation
+navigation:
+  - title: home
+    url: /index.html

@@ -1,0 +1,42 @@
+$line-height: 1.5;
+
+/* REGULAR */
+@font-face {
+  font-family: 'Josefin Sans';
+  src: local('Josefin Sans'),
+       local('JosefinSans'),
+       url(https://fonts.gstatic.com/s/josefinsans/v9/xgzbb53t8j-Mo-vYa23n5hampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* LIGHT */
+@font-face {
+  font-family: 'Josefin Sans Light';
+  src: local('Josefin Sans Light'),
+       local('JosefinSans-Light'),
+       url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04z0ZRWJQ0UjzR2Uv6RollX_g.woff2) format('woff2');
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: normal;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* SEMIBOLD */
+@font-face {
+  font-family: 'Josefin Sans SemiBold';
+  src: local('Josefin Sans SemiBold'),
+       local('JosefinSans-SemiBold'),
+       url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04z93uLUHnU24AL_1IdxwhTqs.woff2) format('woff2');
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* FONT VARIABLES */
+$font-regular: 'Josefin Sans', Helvetica, Arial, sans-serif;
+$font-light: 'Josefin Sans Light', Helvetica, Arial, sans-serif;
+$font-semibold: 'Josefin Sans SemiBold', Helvetica, Arial, sans-serif;
