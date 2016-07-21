@@ -404,3 +404,57 @@ body {
 *:before,
 *:after {
   box-sizing: border-box; }
+
+.flex {
+  display: -ms-flexbox;
+  display: flex; }
+  .flex--justify-between {
+    -ms-flex-pack: justify;
+        justify-content: space-between; }
+  .flex--center {
+    -ms-flex-align: center;
+        align-items: center; }
+
+.header {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.95); }
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .nav--main .nav__item {
+    margin-right: 1rem; }
+    .nav--main .nav__item:last-child {
+      margin-right: 0; }
+  .nav--main .nav__link {
+    color: #111;
+    text-decoration: none;
+    transition: color .5s; }
+    .nav--main .nav__link:hover {
+      color: #ed4bb7; }
+  .nav--footer .nav__link {
+    color: #fff;
+    text-decoration: none;
+    transition: color .5s; }
+    .nav--footer .nav__link:hover {
+      color: #ed4bb7; }
+
+footer {
+  background-color: #828282;
+  padding: 3rem;
+  color: #fff; }
+  footer .text--signature {
+    text-align: center; }
+  footer .text__icon {
+    padding-right: .5rem; }
