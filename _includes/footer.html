@@ -1,38 +1,15 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
-
-  </div>
-
+<footer class="flex flex--justify-between flex--center">
+  <nav>
+    <ul class="nav nav--footer">
+      <li class="nav__item">
+        <a href="#" class="nav__link">Impressum</a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link">Datenschutz</a>
+      </li>
+    </ul>
+  </nav>
+  <p class="text text--signature">
+    With love and <span class="text__icon">&#x1f984;</span> power from Cologne.
+  </p>
 </footer>

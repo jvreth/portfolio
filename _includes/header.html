@@ -1,19 +1,19 @@
-<header class="site-header">
-
-  <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-    <nav class="site-nav">
-      <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </nav>
-
-  </div>
-
+<header class="header">
+  <a href="logo" title="Jasmin von Reth" href="">Jasmin von Reth</a>
+  <nav>
+    <ul class="nav nav--main flex">
+      <li class="nav__item">
+        <a href="#" class="nav__link">About</a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link">My Skills</a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link">Experience/Education</a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link">Contact</a>
+      </li>
+    </ul>
+  </nav>
 </header>
